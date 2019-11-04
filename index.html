@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ade-Joshe - TodoList</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body class="landing">
+    <!-- Header -->
+    <header id="header" class="alt">
+        <span class="headerLogo"><img src="images/img_5282.jpg" alt="profile picture" id="profilePicture" />
+            <span id='logo'> Joshe </span>
+        </span>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <h2>Todo List</h2>
+        <div id="newTodo">
+            <h3 style="color: #00000085; text-align: left"> Add new Todo Item</h3>
+            <hr />
+            <input placeholder="Enter todo item" type="text" style="color: #00000085" id="input" />
+            <label> Valid until </label>
+            <input type="date" style="color: #00000085; display: block;" id="date" />
+            <input type="time" style="color: #00000085; display: block;" id="time" />
+            <input type="button" value="Close" id="close" style="background-color:#00000095; color: white !important">
+            <input type="button" value="+ Add" id="add" style="background-color:#00000095; color: white !important">
+        </div>
+
+        <div class="tableForm">
+            <table class="table">
+                <thead>
+                    <td>S/N </td>
+                    <td>Start Date</td>
+                    <td>End Date</td>
+                    <td>Task </td>
+                    <td>Actions </td>
+                </thead>
+                <tbody id="list-body">
+
+                </tbody>
+            </table>
+        </div>
+        <button id='open'> Create New Todo </button>
+
+    </section>
+
+    <audio>
+        <source src="./assets/09 Fireflies.mp3">
+        </source>
+    </audio>
+</body>
+
+
+<script src="./assets/js/main.js"></script>
+
+</html>
